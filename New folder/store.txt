@@ -1,0 +1,27 @@
+void main(){
+// person class object
+Person p1 = Person('jhon', 'm', 45);
+ p1.showData();
+ print(p1.name);
+Person p2 = Person('marry', 'f', 21);
+p2.showData();
+print(p2.name);
+}
+class Person{
+   String? name,sex;
+   int? age;
+
+  //  constructor
+  Person(String name, sex, int age){
+    this.name = name;
+    this.age = age; 
+    this.sex = sex;
+  }
+  // method 
+  void showData(){
+    print('name = $name');
+    print('sex = $sex');
+    print('age = $age');
+
+  }
+}
