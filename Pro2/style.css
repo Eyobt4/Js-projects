@@ -1,18 +1,18 @@
-.fullgrid-container{
+#fullgrid-container{
     display: grid;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
 
 }
-.calculator-grid{
+#calculator-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(6,1fr);
     grid-gap: 1px;
     background-color: rgb(88, 88, 88);
 }
-.calculator-grid button{
+#calculator-grid button{
     font-family: 'DM Mono',monospace;
     font-size: 25px;
     background-color: #fff;
@@ -22,7 +22,7 @@
    /* color: green;*/
     
 }
-textarea{
+#display{
     grid-column: span  4;
     font-family: 'DM Mono',monospace;
     font-size: 25px;
@@ -31,11 +31,11 @@ textarea{
     padding: 15px;
     border: none;
 }
-.calculator-grid button:nth-child(n+18){
+#calculator-grid button:nth-child(n+18){
     background-color: tomato;
 }
 button:hover,
-.calculator-grid button:nth-child(n):hover{
+#calculator-grid button:nth-child(n):hover{
     background-color: #440b15;
     color: white;
     transition: 0.2s;
