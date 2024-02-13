@@ -13,9 +13,6 @@ function calculate(){
     catch(error){
         display.value = 'Error';
     }
-    if (display.value === '%'){
-        
-    }
 }
 
 
