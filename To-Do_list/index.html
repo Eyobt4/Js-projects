@@ -8,12 +8,17 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
     <div id="myDIV" class="head">
-        <p>ToDo List</p>
+        <p>My To-Do List</p>
+        <!--recive user input-->
         <input type="text" id="myInput" placeholder="Title...">
+        <!--add to list using button-->
         <button onclick="newElement()" class="addBtn">Add</button>
     </div>
-    <ul>
+    <!--list added inputs-->
+    <ul id="myUL">
         <li>Read a book</li>
-    </ul>
+        <li class="checked"></li>
+    </ul>  
+    <script src="index.js"></script>
 </body>
 </html>

@@ -35,3 +35,13 @@
     display: grid;
 
     }
+
+    <div id="myDIV" class="head">
+        <p>ToDo List</p>
+        <input type="text" id="myInput" placeholder="Title...">
+        <button onclick="newElement()" class="addBtn">Add</button>
+    </div>
+    <ul id="muUL">
+        <li>Read a book</li>
+        <li class="checked"></li>
+    </ul>
