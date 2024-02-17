@@ -7,18 +7,14 @@
 </head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
-    <div id="myDIV" class="head">
-        <p>My To-Do List</p>
-        <!--recive user input-->
-        <input type="text" id="myInput" placeholder="Title...">
-        <!--add to list using button-->
-        <button onclick="newElement()" class="addBtn">Add</button>
+    <div class="container">
+
+    </div> 
+    <div id="newtask">
+        <input type="text" placeholder="Task to be done..">
+        <button id="push">Add</button>
+        <div id="tasks"></div>
     </div>
-    <!--list added inputs-->
-    <ul id="myUL">
-        <li>Read a book</li>
-        <li class="checked"></li>
-    </ul>  
     <script src="index.js"></script>
 </body>
 </html>
