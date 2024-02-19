@@ -25,9 +25,8 @@ document.querySelector('#push').onclick = function(){
 }
 //edit button - return back to task writing
 function edit_task(){
-  var current_tasks = document.querySelectorAll(".delete");
-    for(var i=0; i<current_tasks.length; i++){
-      current_tasks[i].onclick = function(){
-          this.parentNode.remove();
-}
-    }
+  var newValue = document.getElementById("newtask").value;
+  document.getElementById("newtask").value = newValue;
+  }
+
+    
