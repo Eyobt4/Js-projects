@@ -23,10 +23,15 @@ document.querySelector('#push').onclick = function(){
     }
   }
 }
-//edit button - return back to task writing
-function edit_task(){
-  var newValue = document.getElementById("newtask").value;
-  document.getElementById("newtask").value = newValue;
-  }
+//edit button - return back to task writing 
+  //when button pressed 
+  //open input box ask user to input task
+  //take and add to the list
+  //display edited task
+  //<button onclick="showInput()" >Edit</button>
+//local storage
+function edittask(){
+  var x = document.getElementById("userinput").value;
+}
 
     
