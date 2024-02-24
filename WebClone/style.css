@@ -1,4 +1,79 @@
-.smaller-image {
-    width: 50%;
-    height: auto;
+*{
+    text-decoration: none;
+}
+body{
+    margin-left: 30px;
+}
+.navbar{
+    background-color: rgb(37, 58, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+li a{
+    color: white; margin-right: 20px;
+}
+button{
+    background-color: rgb(92, 167, 92); border-radius: 10px; padding: 10px; width: 90px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+button a{
+    color: white;
+}
+.allText{
+    float: left;
+    margin-top: 90px;
+}
+.discover{
+    color:  rgb(37, 58, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+.your{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300; 
+}
+.imgdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    float: right;
+    height: 400px;
+    padding-top: 0px;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+.img2{
+    float: right;
+    height: 200px;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+.img3{
+    float: right;
+    height: 200px;
+    border-radius: 20px;
+    align-self: flex-end;
 }
