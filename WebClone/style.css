@@ -135,3 +135,56 @@ button a{
     padding-right: 20px;
     font-size: 1rem;
 }
+.ourstory{
+    display: flex;
+    flex-direction: row;
+    width: inherit;height: inherit;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    border: 5px solid black;
+    align-content: space-evenly;
+}
+.firstdiv{
+    display: flex;
+    flex-direction: column;
+    width: inherit;height: inherit;
+}
+.tablet{
+    border-radius: 20px;
+    width: 400px;height: 200px;
+}
+.tructor{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 400px;height: 150px;
+}
+.secondiv{
+}
+.carry{
+    border-radius: 20px;
+    width: 400px;height: 370px;
+}
+.thirdiv{
+}
+.ourdiv2{
+    background-color: #e5f5eb;
+    border-radius: 10px;
+}
+.ourdiv{
+    font-size: 1.3rem;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.ourtext{
+    margin-top: -20px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+}
