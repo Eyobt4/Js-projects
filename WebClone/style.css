@@ -142,7 +142,6 @@ button a{
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 10px;
-    border: 5px solid black;
     align-content: space-evenly;
 }
 .firstdiv{
@@ -174,17 +173,29 @@ button a{
 .ourdiv{
     font-size: 1.3rem;
     padding-left: 50px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 10px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    margin-top: -30px;
 
 }
 .ourtext{
-    margin-top: -20px;
+    margin-top: -10px;
     padding-left: 15px;
     padding-right: 20px;
+    padding-bottom: 10px;
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 350;
     font-family: "Roboto", sans-serif;
+}
+.sun{
+    padding-left: 10px;
+    width: 30px;
+    margin-top: 30px;
+}
+.leaf{
+    width: 30px;
+    padding-left: 10px;
+    margin-top: 0px;
 }
