@@ -40,6 +40,7 @@ button{
 button a{
     color: white;
 }
+/* Discover fresh */
 .allText{
     float: left;
     margin-top: 90px;
@@ -135,6 +136,9 @@ button a{
     padding-right: 20px;
     font-size: 1rem;
 }
+/* our story */
+.ostory h1{font-family: "Roboto", sans-serif;color:  #1F3119;}
+.ostory h3{font-family: "Roboto", sans-serif;font-weight: 300;font-size: 1rem;}
 .ourstory{
     display: flex;
     flex-direction: row;
@@ -199,3 +203,61 @@ button a{
     padding-left: 10px;
     margin-top: 0px;
 }
+/* our offered services */
+.ourheader h1{font-family: "Roboto", sans-serif;color:  #1F3119;}
+.ourheader h3{font-family: "Roboto", sans-serif;font-weight: 300;font-size: 1rem;}
+.fourbox{
+    display: flex;
+    flex-direction: row;
+    width: inherit;height: inherit;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    align-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+}
+.fourbox 
+.harvest{
+    border: #57b47e solid ;
+    border-radius: 15px;
+    width: inherit;height: inherit;
+}
+.harvest img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
+.harvest h1{margin-left: 15px; margin-top: 5px;}
+.harvest h3{font-size: 1rem; font-weight: 300; padding: 10px 15px 10px 15px;}
+.harvest h2{font-size: 1rem ;padding-left: 15px;}
+.soil{
+    border: #57b47e solid;
+    border-radius: 15px;
+    width: inherit;height: inherit;
+}
+.soil img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
+.soil h1{margin-left: 15px; margin-top: 5px;}
+.soil h3{font-size: 1rem; font-weight: 300; padding: 10px 15px 10px 15px;}
+.soil h2{font-size: 1rem ;padding-left: 15px;}
+
+.prunin{
+    border: #57b47e solid;
+    border-radius: 15px;
+    width: inherit;height: inherit;
+}
+.prunin img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
+.prunin h1{margin-left: 15px; margin-top: 5px;}
+.prunin h3{font-size: 1rem; font-weight: 300; padding: 10px 15px 10px 15px;}
+.prunin h2{font-size: 1rem ;padding-left: 15px;}
+.landscape{
+    border: #57b47e solid;
+    border-radius: 15px;
+    width: inherit;height: inherit;
+}
+.landscape img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
+.landscape h1{margin-left: 15px; margin-top: 5px;}
+.landscape h3{font-size: 1rem; font-weight: 300; padding: 10px 15px 10px 15px;}
+.landscape h2{font-size: 1rem ;padding-left: 15px;}
+.allservice{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+.allservice button{color: white;font-family: "Roboto", sans-serif;width: 120px;height: 40px;font-weight: 500;}
