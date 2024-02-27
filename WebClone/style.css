@@ -4,6 +4,18 @@
 body{
     margin-left: 30px;
 }
+@font-face {
+    font-family: montreal-light;
+    src: url(/WebClone/fonts/Montreal\ Serial\ Light.ttf);
+}
+@font-face {
+    font-family: montreal-medium;
+    src: url(/WebClone/fonts/Montreal\ Serial\ Medium.ttf);
+}
+@font-face {
+    font-family: montreal-xlight;
+    src: url(/WebClone/fonts/Montreal\ Serial\ ExtraLight.ttf);
+}
 .navbar{
     background-color: #1F3119;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -191,7 +203,7 @@ button a{
     padding-bottom: 10px;
     font-size: 1rem;
     font-weight: 350;
-    font-family: "Roboto", sans-serif;
+    font-family: montreal-light,"Roboto", sans-serif ;font-weight: 500;font-size: 0.9rem;
 }
 .sun{
     padding-left: 10px;
@@ -221,15 +233,30 @@ button a{
     border: #57b47e solid ;
     border-radius: 15px;
     width: inherit;height: inherit;
+    transition: all 0.4s;
 }
+.harvest:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color:#e5f5eb;
+    box-shadow:  0px 10px 30px -10px  #000000;
+}
+
 .harvest img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
 .harvest h1{margin-left: 15px; margin-top: 5px;}
-.harvest h3{font-size: 1rem; font-weight: 300; padding: 10px 15px 10px 15px;}
+.harvest h3{font-size: 1rem; font-weight: 100; padding: 10px 15px 10px 15px;font-family: montreal-light;}
 .harvest h2{font-size: 1rem ;padding-left: 15px;}
 .soil{
     border: #57b47e solid;
     border-radius: 15px;
     width: inherit;height: inherit;
+    transition: all 0.4s;
+}
+.soil:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color:#e5f5eb;
+    box-shadow:  0px 10px 30px -10px  #000000;
 }
 .soil img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
 .soil h1{margin-left: 15px; margin-top: 5px;}
@@ -240,6 +267,13 @@ button a{
     border: #57b47e solid;
     border-radius: 15px;
     width: inherit;height: inherit;
+    transition: all 0.4s;
+}
+.prunin:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color:#e5f5eb;
+    box-shadow:  0px 10px 30px -10px  #000000;
 }
 .prunin img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
 .prunin h1{margin-left: 15px; margin-top: 5px;}
@@ -249,6 +283,13 @@ button a{
     border: #57b47e solid;
     border-radius: 15px;
     width: inherit;height: inherit;
+    transition: all 0.4s;
+}
+.landscape:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color:#e5f5eb;
+    box-shadow:  0px 10px 30px -10px  #000000;
 }
 .landscape img{height: 50px;width: 60px; margin-top: 20px;margin-left: 20px;}
 .landscape h1{margin-left: 15px; margin-top: 5px;}
@@ -259,8 +300,10 @@ button a{
     justify-content: center;
     align-content: center;
     margin: 20px;
+    transition: all 0.4s;
 }
 .allservice button{color: white;font-family: "Roboto", sans-serif;width: 120px;height: 40px;font-weight: 500;}
+/* sustainable farm */
 .sustain{
     display: flex;
     flex-direction: row;
@@ -272,4 +315,38 @@ button a{
     font-family: "Roboto", sans-serif;
 }
 .org{
+    display: flex;
+    border: 5px black solid;
+    flex-wrap: wrap;
+    width: 500px;height: 250px;
+    column-gap: 100px;
+    row-gap: 0px;
+    flex-direction: row;
+    flex-grow: 1;
+    align-content: space-between;    
 }
+.webelive h1{font-family: "Roboto", sans-serif;color:  #1F3119;}
+.webelive h3{font-family: montreal-light, sans-serif;font-weight: 550;font-size: 0.9rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
