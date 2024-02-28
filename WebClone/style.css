@@ -2,7 +2,7 @@
     text-decoration: none;
 }
 body{
-    margin-left: 30px;
+    margin-left: 60px;
 }
 @font-face {
     font-family: montreal-light;
@@ -309,29 +309,64 @@ button a{
     flex-direction: row;
     width: inherit;height: inherit;
     flex-wrap: wrap;
-    column-gap: 50px;
+    column-gap: 40px;
     row-gap: 50px;
     align-content: space-evenly;
     font-family: "Roboto", sans-serif;
+    margin-left: 50px;
 }
+.hang img{
+    border-radius: 15px;
+    width: 170px;height: 250px;
+    margin-top: 30px;
+}
+.farmers img{
+    border-radius: 15px;
+    width: 200px;height: 300px;
+}
+.webelive h1{font-family: "Roboto", sans-serif;color:  #1F3119;font-size: 3rem;}
+.webelive h3{font-family: montreal-light, sans-serif;font-weight: 550;font-size: 1rem;margin-top: -50;}
 .org{
     display: flex;
-    border: 5px black solid;
+    /* border: 5px black solid; */
     flex-wrap: wrap;
-    width: 500px;height: 250px;
+    width: 500px;height: 100px;
     column-gap: 100px;
     row-gap: 0px;
     flex-direction: row;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     align-content: space-between;    
 }
-.webelive h1{font-family: "Roboto", sans-serif;color:  #1F3119;}
-.webelive h3{font-family: montreal-light, sans-serif;font-weight: 550;font-size: 0.9rem;}
+.hundered{display: flex;}
+.hundered img{width: 20px;height: 20px;padding: 10px;}
+.hundered h2{font-family: montreal-light;font-weight: 600;font-size: 0.9rem;}
+.smart{display: flex;}
+.smart img{width: 20px;height: 20px;padding: 10px;}
+.smart h2{font-family: montreal-light;font-weight: 600;font-size: 0.9rem;}
+.license{display: flex;}
+.license img{width: 20px;height: 20px;padding: 10px;}
+.license h2{font-family: montreal-light;font-weight: 600;font-size: 0.9rem;}
+.no{display: flex;}
+.no img{width: 20px;height: 20px;padding: 10px;}
+.no h2{font-family: montreal-light;font-weight: 600;font-size: 0.9rem;}
 
+/* Recently completed project */
+.recently h1{font-family: "Roboto", sans-serif;font-size: 3rem; color:  #1F3119;}
+.recently h3{font-family: montreal-light, sans-serif;font-weight: 550;font-size: 1rem;margin-top: -30px;}
 
-
-
-
+.farmdesign{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0px;
+    column-gap: 20px;
+}
+.image20 img{width: 815px;height: 300px; border-radius: 15px;}
+.image21 img{width: 400px;height: 500px; border-radius: 15px;}
+.image22 img{margin-top: -200px; width: 400px;height: 200px;border-radius: 15px;}
+.image23 img{margin-top: -200px; width: 400px;height: 200px; border-radius: 15px;}
+.morebtn{display: flex; justify-content: center;margin: 30px;}
+.morebtn button{color: white;font-family: "Roboto", sans-serif;font-weight: 500; padding: 5px 20px 5px 20px;width: auto ;height: 40px;}
+/* Best Feedback */
 
 
 
