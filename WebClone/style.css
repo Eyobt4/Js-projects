@@ -367,10 +367,20 @@ button a{
 .morebtn{display: flex; justify-content: center;margin: 30px;}
 .morebtn button{color: white;font-family: "Roboto", sans-serif;font-weight: 500; padding: 5px 20px 5px 20px;width: auto ;height: 40px;}
 /* Best Feedback */
-
-
-
-
+.best{
+    display: block; text-align: center;
+}
+.best h1{font-family: "Roboto", sans-serif;font-size: 3rem; color:  #1F3119;}
+.best h3{font-family: montreal-light, sans-serif;font-weight: 550;font-size: 1rem;margin-top: -30px;}
+.inclusive{
+    display:block ; text-align:center;
+    width: 500px;height: 200px;
+    align-content: center;
+    border:#57b47e solid ;border-radius: 15px;background-color: #e5f5eb;
+    margin: 40px;margin-left: 370px; padding: 50px 50px 30px 50px;
+}
+.inclusive h4{font-family: montreal-light, sans-serif;font-weight: 550;font-size: 1rem;}
+.inclusive h3{margin-top: 50px; margin-bottom: -20px; font-family: montreal-light, sans-serif;font-weight: 700;font-size: 1rem;}
 
 
 
