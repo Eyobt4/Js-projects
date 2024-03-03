@@ -380,11 +380,64 @@ button a{
     margin: 40px;margin-left: 370px; padding: 50px 50px 30px 50px;
 }
 .inclusive h4{font-family: montreal-light, sans-serif;font-weight: 550;font-size: 1rem;}
-.inclusive h3{margin-top: 50px; margin-bottom: -20px; font-family: montreal-light, sans-serif;font-weight: 700;font-size: 1rem;}
-
-
-
-
+.inclusive h3{margin-top: 50px; margin-bottom: -20px; font-family: montreal-light, sans-serif;font-weight: 600;font-size: 1rem;}
+/*  The slide  */
+.slider{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.slider .inclusive{
+    display: none;
+}
+.inclusive .displayslide{
+    display: block;
+}
+/* forward & Back buttons */
+.Back, .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
+  
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  /*when the user hovers,add a black background with some little opacity */
+  .Back:hover, .forward:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+/* Caption Info */
+.info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Content */
+  .info {
+    color: #f2f2f3;
+    font-size: 14px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+  }
 
 
 
