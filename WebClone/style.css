@@ -27,6 +27,7 @@ body{
 .navdiv{
     display: flex;
     justify-content: space-between;
+    z-index: 100;
 }
 .logo a{
     font-size: 40px;
@@ -68,32 +69,46 @@ button a{
 }
 .imgdiv{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: inherit;height: inherit;
+    align-content: space-evenly;
+    /* align-items: flex-end; */
+    justify-content: right;
+    column-gap: 50px;
+    row-gap: 50px;
+    /* overflow: hidden; */
+
 }
 
 .img1{
-    float: right;
+    position: relative;
+    display: flex;
+    justify-content: left;
     height: 400px;
-    padding-top: 0px;
+    margin-top: 0;
+    /* align-self: flex-end; */
+    /* padding-top: 0px;
     border-radius: 20px;
-    align-self: flex-end;
+    
+    float: right; */
 }
 .img2{
 
     height: 130px;
     border-radius: 20px;
-    align-self: flex-end;
-    padding: 10px;
-    margin-right: 410px;
+    /* align-self: flex-end; */
+    /* padding: 10px; */
+    /* margin-right: 410px; */
 }
 .img3{
 
     height: 130px;
     border-radius: 20px;
-    align-self: flex-end;
-    padding: 10px;
-    margin-top: -150px;
-    margin-right: -8px;
+    /* align-self: flex-end; */
+    /* padding: 10px; */
+    /* margin-top: -150px;*/
+    /* margin-right: -8px; */
 }
 .our{
     display: flex;
@@ -174,14 +189,12 @@ button a{
     border-radius: 20px;
     width: 400px;height: 150px;
 }
-.secondiv{
-}
+ /* .secondiv{} */
 .carry{
     border-radius: 20px;
     width: 400px;height: 370px;
 }
-.thirdiv{
-}
+ /* .thirdiv{} */
 .ourdiv2{
     background-color: #e5f5eb;
     border-radius: 10px;
@@ -423,6 +436,9 @@ button a{
   border-radius: 4px 0 0 4px;
   margin-right: 100px;
   border-radius: 50%;
+  /* width: 50px;
+  height: 50px;
+   */
 }
 
 /*when the user hovers,add a black background with some little opacity */
