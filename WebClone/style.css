@@ -2,6 +2,7 @@
     text-decoration: none;
 }
 body{
+    /* overflow-x: hidden; */
     margin-left: 60px;
 }
 @font-face {
@@ -534,7 +535,88 @@ button a{
     cursor: pointer;
     color: #3A8358;
 }
+/* get in touch */
+.contact{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* justify-content: space-between; */
+    /* background-color: #cff5de; */
+}
+.contact img{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.form{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #cff5de;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 20px;
+}
+.all-top{
+    /* margin-left: 20px; */
+    border: 5px black;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.contact h1{
+    font-size: 2rem;
+    font-family: ;
+    margin-left: 20px;
+}
+.contact h3{
+    font-size: 1rem;
+}
 /* contact */
+.last{
+    display: flex;
+    justify-content: space-around;
+    font-family: "montreal-light";
+    margin-top: 100px;
+    border-style:groove ;
+    /* border-top: 50px; */
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.last h2{
+    font-size: 1.2rem;
+}
+.last h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.copyright{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: "montreal-light";
+    border-style:groove ;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
